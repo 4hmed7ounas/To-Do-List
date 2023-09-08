@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <title>CaveTree | To-Do List App</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-inner">
+                <a href="">CaveTree To-Do List</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h1>To-Do List</h1>
+                <textarea type="text" id="taskInput" placeholder="Enter the task"></textarea>
+                <label style="margin: 6px 0;">Time:</label>
+                <input type="text" id="timeInput" placeholder="hh:mm am/pm"></input>
+                <button id="addButton">Add Task</button>
+                <ul id="taskList"></ul>
+                <audio id="alertSound" src="sound.wav"></audio>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
